@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+# BloggingCoder - MERN Stack APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a multi-user blogging platform built with Node, React, Next.js, Express, and MongoDB.
 
-## Available Scripts
+  <kbd>
+    <img src="http://alexticovschi.com/portfolio/bloggingcoder.jpg" alt="portfolio" title="BloggingCoder">
+  </kbd>
+  </br>
+  </br>
+  
+  ### Browse for blogs
+  
+  <kbd>
+    <img src="http://alexticovschi.com/portfolio/blogs-browsing.jpg" alt="portfolio" title="BloggingCoder">
+  </kbd>
+  </br>
+  </br>
+  
+  ### Perform CRUD operations from admin dashboard. 
+ 
+  <kbd>
+    <img src="http://alexticovschi.com/portfolio/bloggingcoder-admin.jpg" alt="portfolio" title="BloggingCoder">
+  </kbd>
+  </br>
+  </br>
+  
+  ### Publish your own blogs. Add image, categories and tags.
 
-In the project directory, you can run:
+  <kbd>
+    <img src="http://alexticovschi.com/portfolio/bloggingcoder-crud.jpg" alt="portfolio" title="BloggingCoder">
+  </kbd>
+  </br>
+  </br>
+  
+  ### Reset your password
 
-### `npm start`
+  <kbd>
+    <img src="http://alexticovschi.com/portfolio/bloggingcoder-password-forgot.jpg" alt="portfolio" title="BloggingCoder">
+  </kbd>
+  </br>
+  </br>
+  
+  ### Signup/Register to BloggingCoder
+  
+  <kbd>
+    <img src="http://alexticovschi.com/portfolio/bloggingcoder-signup.jpg" alt="portfolio" title="BloggingCoder">
+  </kbd>
+  </br>
+  </br>
+  
+  ### Receive activation link by email to activate your account
+  
+  <kbd>
+    <img src="http://alexticovschi.com/portfolio/account-activation-link.jpg" alt="portfolio" title="BloggingCoder">
+  </kbd>
+  </br>
+  </br>
+ 
+  ### Activate your account
+ 
+  <kbd>
+    <img src="http://alexticovschi.com/portfolio/activate-account.jpg" alt="portfolio" title="BloggingCoder">
+  </kbd>
+  </br>
+  </br>
+  
+  ### Update your own profile
+  
+  <kbd>
+    <img src="http://alexticovschi.com/portfolio/bloggingcoder-update-profile.jpg" alt="portfolio" title="BloggingCoder">
+  </kbd>
+  </br>
+  </br>
+  
+  ### Send emails to admin
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <kbd>
+    <img src="http://alexticovschi.com/portfolio/contact.jpg" alt="portfolio" title="BloggingCoder">
+  </kbd>
+  </br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Description
 
-### `npm test`
+- User Signup / Signin
+- JWT based Authentication System
+- Account Activation on User Signup
+- Role Based Authorization System
+- Perform CRUD (Create, Read, Edit or Remove Blogs) Operations from Admin Dasboard or User Dasboard
+- Admin can Add or Remove 'categories' and 'tags'
+- Advanced CRUD with Image Upload
+- Ability to Search for Blogs and Load more Blogs
+- SEO - Search Engine Optimization
+- API Development with Node Express and MongoDB
+- SSR provided by Next.js
+- Blog Author Private Contact Form
+- Multiple User Authorization System
+- Sendgrid for Sending Emails
+- Forgot Password / Reset Password
+- Social Login with Google
+- DISQUS Commenting System
+- Deployed on DigitalOcean
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tools Used
 
-### `npm run build`
+- [React](https://reactjs.org/) - The front end is powered by React for state management and dynamic rendering.
+- [Next.js](https://nextjs.org/) - for SSR (server-side rendering), statically generated pages and SEO.
+- [ Node.js](https://nodejs.org/en/) and [Express.js](https://expressjs.com/) - for building the server and interacting with the database.
+- [MongoDB](https://www.mongodb.com/) - a schema-less NoSQL database.
+- [Mongooose](https://mongoosejs.com/) - the object document modeling (ODM) layer that sits on top of Node's MongoDB driver.
+- [DigitalOcean](https://www.digitalocean.com/) - as the deployment platform of choice.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Demo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [View Project](https://bloggingcoder.com/)
